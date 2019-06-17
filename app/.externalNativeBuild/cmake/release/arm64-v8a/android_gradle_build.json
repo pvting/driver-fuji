@@ -1,0 +1,50 @@
+
+{
+	"buildFiles" : [ "D:/AndroidStudioDemos/FujiVMC/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidStudioDemos\\FujiVMC\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"fujiProtocol-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "fujiProtocol",
+			"buildCommand" : "D:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidStudioDemos\\FujiVMC\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target fujiProtocol",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/FujiProtocol.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/serialPort.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "D:/AndroidStudioDemos/FujiVMC/app/build/intermediates/cmake/release/obj/arm64-v8a/libfujiProtocol.so",
+			"toolchain" : "4100436765"
+		}
+	},
+	"toolchains" : 
+	{
+		"4100436765" : 
+		{
+			"cCompilerExecutable" : "D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

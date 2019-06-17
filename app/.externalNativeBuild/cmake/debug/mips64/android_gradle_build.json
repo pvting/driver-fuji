@@ -1,0 +1,50 @@
+
+{
+	"buildFiles" : [ "D:/AndroidStudioDemos/FujiVMC/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidStudioDemos\\FujiVMC\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"fujiProtocol-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "fujiProtocol",
+			"buildCommand" : "D:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidStudioDemos\\FujiVMC\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target fujiProtocol",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-mips64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-mips64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/FujiProtocol.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-mips64  -DfujiProtocol_EXPORTS -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioDemos/FujiVMC/app/src/main/cpp/serialPort.cpp",
+					"workingDirectory" : "D:/AndroidStudioDemos/FujiVMC/app/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "D:/AndroidStudioDemos/FujiVMC/app/build/intermediates/cmake/debug/obj/mips64/libfujiProtocol.so",
+			"toolchain" : "4100436765"
+		}
+	},
+	"toolchains" : 
+	{
+		"4100436765" : 
+		{
+			"cCompilerExecutable" : "D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

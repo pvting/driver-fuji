@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.want.vmc_impl_fuji.FujiImpl.com.want.vmc_impl_fuji.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_height="600dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/textview"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:onClick="chargeButtonClicked"
+        android:text="PC指示扣费"
+        android:id="@+id/button1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="getColumnNumButtonClicked"
+        android:text="取得货道个数"
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupColumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button">
+
+        <RadioButton
+            android:id="@+id/radioFontA"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:checked="true"
+            android:text="货道13"
+            android:textColor="#FF000000" />
+
+        <RadioButton
+            android:id="@+id/radioFontB"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:text="货道14"
+            android:textColor="#FF000000" />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="出货查询模式"
+        android:onClick="vendoutIndRequestButtonClicked"
+        android:id="@+id/button"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="lightButtonClicked"
+        android:text="点亮按钮"
+        android:id="@+id/button2"
+        android:layout_below="@+id/radioGroupColumn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="PC指示退币"
+        android:onClick="returnCoinButtonClicked"
+        android:id="@+id/button4"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toRightOf="@+id/radioGroupColumn"
+        android:layout_toEndOf="@+id/radioGroupColumn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginLeft="40dp"
+        android:onClick="vendoutIndActionButtonClicked"
+        android:layout_marginStart="40dp"
+        android:text="出货动作模式"
+        android:layout_alignTop="@+id/button"
+        android:id="@+id/button7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="请输入type类型："
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="getStatus(type)"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:onClick="getStatusButtonClicked"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:id="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="getInfo(type)"
+        android:onClick="getInfoButtonClicked"
+        android:layout_marginLeft="38dp"
+        android:id="@+id/button6"
+        android:layout_marginStart="38dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/radioGroupColumn"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_toEndOf="@+id/button4"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp">
+
+        <RadioButton
+            android:id="@+id/radioFontC"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:checked="true"
+            android:text="现金方式"
+            android:textColor="#FF000000" />
+
+        <RadioButton
+            android:id="@+id/radioFontD"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:text="非现金方式"
+            android:textColor="#FF000000" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="设置机器编号"
+        android:layout_below="@+id/button6"
+        android:onClick="setMachineIdButtonClicked"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="设置现金单价"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/button8"
+        android:onClick="setColumnPrice_CashButtonClicked"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="设置非现金单价"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_toEndOf="@+id/button7"
+        android:onClick="setColumnPrice_notCashButtonClicked"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="设置连续购买个数(type)"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button10"
+        android:onClick="setSalesMaxNumButtonClicked"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/button11" />
+</RelativeLayout>
